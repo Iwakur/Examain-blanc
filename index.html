@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Examain blanc</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenue à l'Hôtel Soleil</h1>
+            <img src="cepes.png"
+                alt="Sorry, we can't find cepes anywhere near Jodoign">
+            <p><i>Vivez une expérience inoubliable au cœur de la vill</i></p>
+        </header>
+        <div>
+            <h2>Description de l'établissement</h2>
+            <p>Notre hôtel 4 étoiles propose un service de qualité, à deux pas
+                de la plage et des commerces.
+                Profitez du confort de nos chambres modernes et lumineuses.
+            </p>
+        </div>
+
+        <div>
+            <h2>Équipements disponibles :</h2>
+            <il>
+                <li>Wifi gratuit</li>
+                <li>Climatisation</li>
+                <li>Petit-dejeuner inclus</li>
+                <li>Piscine interieure</li>
+            </il>
+        </div>
+
+        <div>
+            <h2>Chambres disponibles :</h2>
+            <table>
+                <thead>Type de chambre Capacite Disbonipite
+                    <tr>
+                        <th>Type de chambre </th>
+                        <th>Capacité</th>
+                        <th>Disponibilité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chambre Simple </td>
+                        <td>1 personne</td>
+                        <td> <u>Disponible</u></td>
+                    </tr>
+                    <tr>
+                        <td>Chambre Double</td>
+                        <td>2 personnes</td>
+                        <td> <u>Disponible</u></td>
+                    </tr>
+                    <tr>
+                        <td>Suite Luxe </td>
+                        <td>2 adultes + 2 enfants </td>
+                        <td> <u>Sur demande</u></td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"> <i>Les prix varient selon la
+                                    saison.
+                                    Contactez-nous pour un devis
+                                    personnalisé.</i></td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+
+            </table>
+        </div>
+        <div>
+            <h2>Formulaire de réservation</h2>
+
+            <form action="#" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="arrivee">Date d'arrivée :</label>
+                <input type="date" id="arrivee" name="arrivee" required>
+
+                <label for="depart">Date de départ :</label>
+                <input type="date" id="depart" name="depart" required>
+
+                <label for="type">Type de chambre :</label>
+                <select id="type" name="type">
+                    <option>Chambre Simple</option>
+                    <option>Chambre Double</option>
+                    <option>Suite</option>
+                </select>
+
+                <label for="commentaires">Commentaires :</label>
+                <textarea id="commentaires" name="commentaires"></textarea>
+
+                <input type="submit" value="Réserver">
+            </form>
+        </div>
+    </body>
+</html>
