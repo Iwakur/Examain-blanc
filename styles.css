@@ -17,7 +17,7 @@ h2 {
   color: darkblue;
 }
 tfoot {
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(231, 231, 231);
 }
 li {
   font-weight: bold;
@@ -33,7 +33,7 @@ table {
   align-items: center;
 }
 thead {
-  background-color: greenyellow;
+  background-color: rgb(7, 233, 45);
 }
 form {
   padding: 30px 40px;
@@ -73,4 +73,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.body {
+  margin: 0 25%;
 }
